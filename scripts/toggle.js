@@ -28,7 +28,7 @@ $(function(){
 	}, function(){
 		if(!state){
 			$(this).animate({
-				color:"#96918a"
+				color:"#a1977d"
 			}, 500);
 
 			state = true;

@@ -3,8 +3,8 @@ body{
 }
 
 #toggleNav{
-	background-color:#edecea;
-	color:black;
+	background-color:#66594d;
+	color:#a1977d;
 	width:25%;
 	margin-left:0;
 	margin-right:0;
@@ -27,7 +27,7 @@ body{
 }
 
 #clickToggleDiv{
-	background-color:#edecea;
+	background-color:#66594d;
 	position:relative;
 	margin-left:-4px;
 	margin-right:0;
@@ -43,7 +43,7 @@ body{
 }
 
 #clickToggleDiv:hover{
-	background-color:#aaaaa9;
+	background-color:#a1977d;
 	cursor:pointer;
 }
 
@@ -62,7 +62,7 @@ body{
 	height:2px;
 	width:80%;
 	background:white;
-	background:-webkit-gradient(linear, 0 0, 100% 0, from(#edecea), to(#edecea), color-stop(50%, black));	
+	background:-webkit-gradient(linear, 0 0, 100% 0, from(#66594d), to(#66594d), color-stop(50%, black));	
 }
 
 .imitation-container-hr{
@@ -70,13 +70,13 @@ body{
 	height:2px;
 	width:80%;
 	background:white;
-	background:-webkit-gradient(linear, 0 0, 100% 0, from(#aaaaa9), to(#aaaaa9), color-stop(50%, black));	
+	background:-webkit-gradient(linear, 0 0, 100% 0, from(#a1977d), to(#a1977d), color-stop(50%, black));	
 }
 
 a{
 	text-decoration:none;
 	font-size:25px;
-	color:#96918a;
+	color:#a1977d;
 	margin-top:18px;
 	margin-bottom:18px;
 	display:inline-block;
@@ -96,12 +96,13 @@ a{
 }
 
 .textContainer{
-	background-color:#aaaaa9;
+	background-color:#a1977d;
 	border-radius:15px;
 	opacity:0.90;
-	width:580px;
+	width:90%;
 	margin:auto;
-	padding:7.5px;
+	padding:2px;
+	text-align:center;
 }
 
 .missionStatement{
@@ -120,11 +121,11 @@ button{
 	border:none;
 	padding:10px;
 	border-radius:25px;
-	background-color:#aaaaa9;
+	background-color:#a1977d;
 }
 
 button:hover{
-	background-color:#edecea;
+	background-color:#66594d;
 }
 
 button:active{
@@ -137,8 +138,8 @@ h1, h3{
 }
 
 .navh3{
-	color:black;
-	text-shadow:none;
+	color:white;
+	text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }	
 
 @media screen and (max-width: 479px){	
@@ -147,7 +148,7 @@ h1, h3{
 	}
 
 	#toggleNav{
-		background-color:#edecea;
+		background-color:#66594d;
 		color:black;
 		width:50%;
 		margin-left:0;
@@ -173,10 +174,10 @@ h1, h3{
 	}
 
 	#clickToggleDiv{
-		background-color:#edecea;
+		background-color:#66594d;
 		position:relative;
 		margin-left:-4px;
-		margin-right:0;
+		margin-right:0;	
 		left:0;
 		height:60px;
 		width:20px;
@@ -189,7 +190,7 @@ h1, h3{
 	}
 
 	#clickToggleDiv:hover{
-		background-color:#aaaaa9;
+		background-color:#a1977d;
 		cursor:pointer;
 	}
 
@@ -208,7 +209,7 @@ h1, h3{
 		height:2px;
 		width:80%;
 		background:white;
-		background:-webkit-gradient(linear, 0 0, 100% 0, from(#edecea), to(#edecea), color-stop(50%, black));	
+		background:-webkit-gradient(linear, 0 0, 100% 0, from(#66594d), to(#66594d), color-stop(50%, black));	
 	}
 
 	.imitation-container-hr{
@@ -216,7 +217,7 @@ h1, h3{
 		height:2px;
 		width:80%;
 		background:white;
-		background:-webkit-gradient(linear, 0 0, 100% 0, from(#aaaaa9), to(#aaaaa9), color-stop(50%, black));	
+		background:-webkit-gradient(linear, 0 0, 100% 0, from(#a1977d), to(#a1977d), color-stop(50%, black));	
 	}
 
 	a{
@@ -242,7 +243,7 @@ h1, h3{
 	}
 
 	.textContainer{
-		background-color:#aaaaa9;
+		background-color:#a1977d;
 		border-radius:15px;
 		opacity:0.90;
 		width:90%;
@@ -267,11 +268,11 @@ h1, h3{
 		border:none;
 		padding:10px;
 		border-radius:25px;
-		background-color:#aaaaa9;
+		background-color:#a1977d;
 	}
 
 	button:hover{
-		background-color:#edecea;
+		background-color:#66594d;
 	}
 
 	button:active{
@@ -295,7 +296,7 @@ h1, h3{
 	}
 
 	#toggleNav{
-		background-color:#edecea;
+		background-color:#66594d;
 		color:black;
 		width:50%;
 		margin-left:0;
@@ -319,7 +320,7 @@ h1, h3{
 	}
 
 	#clickToggleDiv{
-		background-color:#edecea;
+		background-color:#66594d;
 		position:relative;
 		margin-left:-4px;
 		margin-right:0;
@@ -335,7 +336,7 @@ h1, h3{
 	}
 
 	#clickToggleDiv:hover{
-		background-color:#aaaaa9;
+		background-color:#a1977d;
 		cursor:pointer;
 	}
 
@@ -354,7 +355,7 @@ h1, h3{
 		height:2px;
 		width:80%;
 		background:white;
-		background:-webkit-gradient(linear, 0 0, 100% 0, from(#edecea), to(#edecea), color-stop(50%, black));	
+		background:-webkit-gradient(linear, 0 0, 100% 0, from(#66594d), to(#66594d), color-stop(50%, black));	
 	}
 
 	.imitation-container-hr{
@@ -362,7 +363,7 @@ h1, h3{
 		height:2px;
 		width:80%;
 		background:white;
-		background:-webkit-gradient(linear, 0 0, 100% 0, from(#aaaaa9), to(#aaaaa9), color-stop(50%, black));	
+		background:-webkit-gradient(linear, 0 0, 100% 0, from(#a1977d), to(#a1977d), color-stop(50%, black));	
 	}
 
 	a{
@@ -388,7 +389,7 @@ h1, h3{
 	}
 
 	.textContainer{
-		background-color:#aaaaa9;
+		background-color:#a1977d;
 		border-radius:15px;
 		opacity:0.90;
 		width:90%;
@@ -412,11 +413,11 @@ h1, h3{
 		border:none;
 		padding:10px;
 		border-radius:25px;
-		background-color:#aaaaa9;
+		background-color:#a1977d;
 	}
 
 	button:hover{
-		background-color:#edecea;
+		background-color:#66594d;
 	}
 
 	button:active{
